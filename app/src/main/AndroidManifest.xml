@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.compactpasswordgenerator" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/MyTheme"
+        android:name="com.orm.SugarApp"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:replace="android:icon">
+        <activity
+            android:name="com.compactpasswordgenerator.MainMenuActivity"
+            android:label="@string/app_name"
+            android:theme="@style/MyTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.compactpasswordgenerator.GenerateActivity"
+            android:label="@string/title_activity_generate"
+            android:theme="@style/MyTheme" >
+        </activity>
+        <activity
+            android:name="com.compactpasswordgenerator.OptionsActivity"
+            android:label="@string/title_activity_options"
+            android:theme="@style/MyTheme" >
+        </activity>
+        <activity
+            android:name="com.compactpasswordgenerator.PasswordActivity"
+            android:label="@string/title_activity_password"
+            android:theme="@style/MyTheme" >
+        </activity>
+    </application>
+
+</manifest>

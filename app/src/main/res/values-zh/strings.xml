@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">密碼小幫手</string>
+    <string name="btn_generate">生成！</string>
+    <string name="btn_my_passwords">我的密碼</string>
+    <string name="btn_options">選項</string>
+    <string name="btn_quit">離開</string>
+    <string name="cancel_text">取消</string>
+    <string name="discard_text">再來</string>
+    <string name="enter_password_name">密碼用途</string>
+    <string name="generated_text">已生成密碼：</string>
+    <string name="menu_text">主菜單</string>
+    <string name="password_name_hint">密碼名</string>
+    <string name="save_prompt">你想儲存這個密碼嗎？</string>
+    <string name="save_text">儲存</string>
+    <string name="title_activity_generate">生成密碼</string>
+    <string name="title_activity_options">選項</string>
+    <string name="title_activity_password">我的密碼</string>
+    <string name="success_generate_text">已生成新密碼</string>
+    <string name="save_success">已儲存</string>
+    <string name="duplicate_password">儲存失敗：密碼已經被儲存過了</string>
+    <string name="duplicate_key">儲存失敗：這個名字已經被使用了</string>
+    <string name="no_passwords">你沒有儲存的密碼</string>
+    <string name="delete_confirm">你確定要刪除這密碼嗎？</string>
+    <string name="delete_text">刪除</string>
+    <string name="include_char">包含以下符號：</string>
+    <string name="error_only_symbols"> 包含以下符號 文字方塊中不能有非符號</string>
+    <string name="error_select_one_option">請至少選擇一項：包含數字，包含小寫字母 或 包含大寫字母</string>
+    <string name="error_text">錯誤</string>
+    <string name="include_lowercase">包含小寫字母</string>
+    <string name="include_numbers">包含數字</string>
+    <string name="include_uppercase">包含大寫字母</string>
+    <string name="number_of_char">密碼長度</string>
+    <string name="ok_text">確定</string>
+    <string name="symbol_text">符號</string>
+</resources>
